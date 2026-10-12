@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Celebrate bright moments with our fireworks and crackers collection. Contact us for product details and availability.">
+  <title>MS Crackers | Celebrate Bright</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">✨ Make every celebration memorable · Shop responsibly</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="MS Crackers home">
+      <span class="brand-mark">✦</span>
+      <span><strong>MS CRACKERS</strong><small>LIGHT UP THE MOMENT</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#home">Home</a><a href="#products">Collections</a><a href="#about">About Us</a><a href="#safety">Safety</a>
+      <a class="nav-cta" href="#contact">Contact us <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="eyebrow-dot"></span> CELEBRATE WITH A LITTLE EXTRA SPARK</span>
+        <h1>Make your<br>moments <em>brighter.</em></h1>
+        <p>Bring family and friends together for the celebrations that matter. Explore our collection and contact us for current availability.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#products">Explore collection <span>↘</span></a><a class="button button-quiet" href="#contact">Get in touch <span>→</span></a></div>
+        <div class="hero-note"><span class="note-icon">✳</span><span><strong>Celebrate thoughtfully</strong><small>Follow local rules and safety instructions.</small></span></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative fireworks illustration">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="spark spark-a">✦</div><div class="spark spark-b">✧</div><div class="spark spark-c">✳</div>
+        <div class="firework firework-main"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="firework firework-small"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="hero-disc"><span>CELEBRATE</span><strong>JOY</strong><span>TOGETHER</span></div>
+        <div class="art-caption"><span class="caption-line"></span> A LITTLE SPARK. A BIG MEMORY.</div>
+      </div>
+      <div class="hero-bottom"><span>FAMILY • FESTIVALS • HAPPY MOMENTS</span><span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="trust-strip">
+      <div><span class="trust-icon">✦</span><span><strong>Festival favourites</strong><small>Options for different occasions</small></span></div>
+      <div><span class="trust-icon">◈</span><span><strong>Personal assistance</strong><small>Ask us about availability</small></span></div>
+      <div><span class="trust-icon">♡</span><span><strong>Safety comes first</strong><small>Use products responsibly</small></span></div>
+    </section>
+
+    <section class="section products-section" id="products">
+      <div class="section-heading">
+        <div><span class="eyebrow">FIND YOUR FESTIVE SPARK</span><h2>Explore our <em>collection.</em></h2></div>
+        <p>Browse the categories below. Product selection and availability may vary—contact us for the latest details.</p>
+      </div>
+      <div class="filter-row" role="group" aria-label="Filter product categories">
+        <button class="filter-btn active" data-filter="all">All collections</button>
+        <button class="filter-btn" data-filter="family">Family favourites</button>
+        <button class="filter-btn" data-filter="colour">Colour & sparkle</button>
+        <button class="filter-btn" data-filter="celebration">Celebration packs</button>
+      </div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-category="family"><div class="product-visual visual-orange"><span class="product-symbol">✺</span><span class="product-tag">FAMILY PICK</span></div><div class="product-info"><div><h3>Family Favourites</h3><p>Explore options for shared celebrations.</p></div><button class="text-link enquiry-btn" data-product="Family Favourites">Ask about this <span>↗</span></button></div></article>
+        <article class="product-card" data-category="colour"><div class="product-visual visual-purple"><span class="product-symbol">✧</span><span class="product-tag">COLOURFUL MOMENTS</span></div><div class="product-info"><div><h3>Colour & Sparkle</h3><p>Add a colourful touch to your occasion.</p></div><button class="text-link enquiry-btn" data-product="Colour & Sparkle">Ask about this <span>↗</span></button></div></article>
+        <article class="product-card" data-category="celebration"><div class="product-visual visual-green"><span class="product-symbol">✹</span><span class="product-tag">CELEBRATION READY</span></div><div class="product-info"><div><h3>Celebration Packs</h3><p>Ask us about available combo options.</p></div><button class="text-link enquiry-btn" data-product="Celebration Packs">Ask about this <span>↗</span></button></div></article>
+        <article class="product-card" data-category="family"><div class="product-visual visual-blue"><span class="product-symbol">✴</span><span class="product-tag">FESTIVE CLASSICS</span></div><div class="product-info"><div><h3>Festival Classics</h3><p>Discover traditional festive selections.</p></div><button class="text-link enquiry-btn" data-product="Festival Classics">Ask about this <span>↗</span></button></div></article>
+        <article class="product-card" data-category="colour"><div class="product-visual visual-pink"><span class="product-symbol">✷</span><span class="product-tag">BRIGHT & JOYFUL</span></div><div class="product-info"><div><h3>Bright Moments</h3><p>Ask about suitable options for your event.</p></div><button class="text-link enquiry-btn" data-product="Bright Moments">Ask about this <span>↗</span></button></div></article>
+        <article class="product-card" data-category="celebration"><div class="product-visual visual-gold"><span class="product-symbol">✦</span><span class="product-tag">SHARE THE JOY</span></div><div class="product-info"><div><h3>Special Occasion Picks</h3><p>Find out what's available for your celebration.</p></div><button class="text-link enquiry-btn" data-product="Special Occasion Picks">Ask about this <span>↗</span></button></div></article>
+      </div>
+      <p class="catalog-note">Illustrative categories only. Add your actual products, prices and photos before publishing.</p>
+    </section>
+
+    <section class="about-section" id="about"><div class="about-art"><div class="about-ring"><span>MS</span><strong>✦</strong><small>MADE FOR<br>HAPPY MOMENTS</small></div><span class="floating-star star-one">✦</span><span class="floating-star star-two">✧</span></div><div class="about-copy"><span class="eyebrow">A LITTLE ABOUT US</span><h2>Every celebration<br>has a <em>story.</em></h2><p>At MS Crackers, we believe celebrations are about togetherness, laughter and memories. We're here to help you learn about available options for your special occasion.</p><p>Have a question about products, availability or store timings? Get in touch—we'll be happy to help.</p><a class="button button-dark" href="#contact">Talk to our team <span>→</span></a></div></section>
+
+    <section class="safety-section" id="safety"><div class="safety-title"><span class="eyebrow">A BRIGHTER CELEBRATION STARTS SAFELY</span><h2>Enjoy the moment.<br><em>Protect each other.</em></h2></div><div class="safety-grid"><div class="safety-item"><span>01</span><h3>Choose a safe place</h3><p>Use fireworks only where legally permitted, outdoors, and away from buildings, vehicles and flammable materials.</p></div><div class="safety-item"><span>02</span><h3>Follow the label</h3><p>Read and follow every instruction. Never dismantle, modify or relight a malfunctioning firework.</p></div><div class="safety-item"><span>03</span><h3>Keep your distance</h3><p>Keep children supervised by adults and spectators at a safe distance. Never hold a firework unless its label specifically permits it.</p></div><div class="safety-item"><span>04</span><h3>Be considerate</h3><p>Follow local noise, timing and environmental rules. Consider pets, older people and neighbours.</p></div></div><p class="safety-footnote">Buy and use only legally compliant products from authorised sellers. Follow all applicable local laws and official safety guidance.</p></section>
+
+    <section class="contact-section" id="contact"><div class="contact-copy"><span class="eyebrow">LET'S MAKE IT A CELEBRATION</span><h2>Have something<br>in <em>mind?</em></h2><p>Ask us about our current collection, store timings or product availability.</p><div class="contact-detail"><span class="detail-icon">☎</span><div><small>CALL / WHATSAPP</small><strong id="displayPhone">+91 00000 00000</strong></div></div><div class="contact-detail"><span class="detail-icon">⌖</span><div><small>VISIT OUR SHOP</small><strong id="displayAddress">Add your shop address here</strong></div></div><p class="edit-hint">Update the sample phone number and address in <code>script.js</code>.</p></div>
+      <form class="contact-form" id="contactForm"><h3>Send an enquiry</h3><p>Fill in your details and continue to WhatsApp.</p><label for="customerName">Your name</label><input id="customerName" name="name" placeholder="Enter your name" required><label for="customerPhone">Your phone number</label><input id="customerPhone" name="phone" type="tel" placeholder="Enter your phone number" required><label for="interest">What are you looking for?</label><select id="interest" name="interest"><option>General enquiry</option><option>Family Favourites</option><option>Colour & Sparkle</option><option>Celebration Packs</option><option>Festival Classics</option><option>Bright Moments</option><option>Special Occasion Picks</option></select><label for="message">Message (optional)</label><textarea id="message" name="message" rows="3" placeholder="Tell us how we can help"></textarea><button class="button button-primary submit-btn" type="submit">Continue to WhatsApp <span>↗</span></button><small class="form-privacy">Your message opens in WhatsApp; this website does not store form details.</small></form>
+    </section>
+  </main>
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">✦</span><span><strong>MS CRACKERS</strong><small>LIGHT UP THE MOMENT</small></span></a><p>Celebrate responsibly. Follow all local laws and product safety instructions.</p><span class="copyright">© <span id="year"></span> MS Crackers</span></footer>
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
